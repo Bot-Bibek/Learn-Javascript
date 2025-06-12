@@ -20,5 +20,19 @@ console.log(2 + "2"); // this print 22 becaues js don't know how to add string a
 //so it assume that no you know what other number might not be the number it might be a string so that's why it print 22
 //Now surely there are a ways to avoid these things
 
-//Example 
+//Example
+// in this senario i define the roll 2 as a string but
+// in if condition i check the number with string and it return
+// condition true value
+// this is excatly coercion
+// JS assuming since you are using 2 = sign you just want to say 2 weather that is string 2 or number 2
+// it just want to say loosly 2 that's why it run the code
+// but if want very strict check and you want to check even the  type the datatype
+// you use 3 = if you use 3 = the code will not run 
+
+var roll = "2";
+
+if (2 == roll) { // replace it with ===
+    console.log("Condition true")
+}
 
