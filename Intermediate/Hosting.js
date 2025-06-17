@@ -16,3 +16,9 @@ function sayMe() {
 }
 
 sayMe();
+
+//3 major things in execution context
+// Variable Object, Scope Chain, This keyword
+//2 rules whenever their is execution context
+// Function declrations are scanned and made available
+//Variable declrations are scanned and made undefiened
