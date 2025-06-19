@@ -33,15 +33,22 @@ states[0] = "Ilam";
 var user = ["ABC", "ABC@lco.dev", 3, 34, true];
 console.log(user);
 
-//
+//remove the value form the very end of the array
 user.pop();
 user.pop();
-//console.log(user);
-user.unshift("NEW VALUE");
-//console.log(user);
-user.shift();
-console.log(user);
+// console.log(user);
 
+//adding the value at the very first of the array
+user.unshift("NEW VALUE");
+// console.log(user);
+
+//remove the the value from the very first of the array.
+user.shift();
+// console.log(user);
+
+
+//return the position of values
 console.log(user.indexOf("newyy"));
 
+//convert the string into array
 console.log(Array.from("ABC"));
