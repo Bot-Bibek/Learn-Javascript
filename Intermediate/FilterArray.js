@@ -18,8 +18,12 @@ const newNumber = myNumber.filter((num) => num != 55);
 // Yes, Same exercise file
 
 var users = ["Ted", "Tim", "Ton", "Sam", "Sor", "Sod"];
-
+//Slice take 2 parameters start and end it does not change the original array
+//it often used to copy arry
 console.log(users.slice(1));
+//Splice add, remove or replace items in place in an array
+//It modifies the original array
+//array.splice(startIndex, deleteCount, item1, item2, ...)
 users.splice(1, 3, "HI", "BYE");
 users.splice()
 console.log(users);
