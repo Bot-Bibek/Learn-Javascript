@@ -17,7 +17,8 @@ const myStates = [
 //   i++;
 // }
 
-//forEach takes a call back function 
+//forEach takes a call back function
 //forEach goes through automatically each elements 
+
 myStates.forEach((s) => (console.log(s)));
 myStates.forEach((s) => console.log(s));
