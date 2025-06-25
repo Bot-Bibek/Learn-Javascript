@@ -7,15 +7,15 @@ for (const n of names) {
 
 const symbols = {
   yt: "Youtube",
-  ig: "Instagram",
+  ig: "Instagram",     
   fb: "Facebook",
 };
 
 for (const n in symbols) {
-      console.log(`Key is: ${n} and value is: ${symbols[n]}`);
-    // console.log(n)
-    // console.log(symbols[n])
+  console.log(`Key is: ${n} and value is: ${symbols[n]}`);
+  // console.log(n)
+  // console.log(symbols[n])
 }
 
-//For of loop is majory use in Arrays 
+//For of loop is majory use in Arrays
 //For in loop is majorly use for Objects
