@@ -7,10 +7,10 @@ var user = {
   getCourseCount: function () {
     console.log("LINE 7", this);
 
-    //Regualar function
+    //Regular function
     function sayHello() {
       console.log("Hello");
-      //this ganna give the windows object as it is inside the regular function
+      //this gonna give the windows object as it is inside the regular function
       console.log("LINE 10", this);
     }
     //Regular Function Count
