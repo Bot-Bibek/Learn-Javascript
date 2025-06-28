@@ -1,0 +1,27 @@
+<!-- Selecting elements on web page. -->
+<!-- there are 2 ways for hunting for the elements.
+ 1.QuerySelector
+ 2.GetElementbyID 
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Document Object Model</title>
+  </head>
+  <body>
+    <div>
+      <h1 class="title">Document Object Model</h1>
+    </div>
+
+    <script>
+      var title = document.getElementsByTagName("h1")[0].innerHTML;
+      console.log(title);
+
+      var titleTwo = document.getElementsByClassName("title")[0].innerText;
+      console.log(titleTwo)
+    </script>
+  </body>
+</html>
