@@ -6,7 +6,18 @@ const pink = document.querySelector(".pink");
 
 const center = document.querySelector(".center");
 
-console.log(window.getComputedStyle(red).backgroundColor);
+// console.log(window.getComputedStyle(red).backgroundColor);
 
 //When ever the computed property is been calculated
 // backgroundColor: #FFF
+const getBGColor = (selectedElement) => {
+  return window.getComputedStyle(selectedElement).backgroundColor;
+};
+
+// console.log(getBGColor(pink));
+
+var color = getBGColor(pink);
+
+pink.addEventListener("mouseenter", () => {
+  center.style.background = color;
+});
