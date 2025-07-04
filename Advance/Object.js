@@ -34,3 +34,14 @@ User.prototype.getFirstName = function () {
 
 abc.getFirstName();
 yogesh.getFirstName();
+
+var umesh = new User("Umesh Thapa Magar", 50);
+// console.log(umesh);
+umesh.getCourseCount();
+
+
+//The hasOwnProperty() method of Object instances returns a boolean indicating whether this object 
+// has the specified property as its own property
+if (umesh.hasOwnProperty("firstName")) {
+  umesh.getFirstName();
+}
