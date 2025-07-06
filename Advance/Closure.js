@@ -21,4 +21,4 @@ function doAddition(x) {
 // var add5 = doAddition(5);
 // console.log(add5(6));
 
-console.log(doAddition(5)(5));
+console.log(doAddition(5)(5)); //Curring
